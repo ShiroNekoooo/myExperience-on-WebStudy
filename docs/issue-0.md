@@ -6,3 +6,5 @@
 NProgress.js
 浏览器运行访问的进度条
 https://github.com/rstacruz/nprogress/
+
+2.

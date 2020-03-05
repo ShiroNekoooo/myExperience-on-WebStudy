@@ -11,3 +11,5 @@ issue-3: 实习感悟
 issue-4: antd组件的坑---form表单的默认值无法动态更新问题
 
 issue-5: mac更新后，mongodb  系统根目录下的data目录找不到，并且无法启动mongod服务端
+
+Issue-6: vue中返回数据格式{**ob**: Observer} ，不能枚举问题
