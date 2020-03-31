@@ -1,0 +1,29 @@
+## node.js获取参数res.query与res.params的区别
+
+相同点：二者都可以获取get请求的参数
+
+不同点：res.query与res.params获取的格式不同
+
+-  req.query也就是？id=参数，这样情况下，key和value都在请求的url中 
+-  req.params也就是/，这样情况下，key在路由中，value是请求的url
+
+```node.js
+req.query:
+router.get('/query', function (req, res, next) {
+
+  console.log('get请求参数对象 :',req.query);//get请求对象:{q:'123',w:'456'}
+  console.log('q的值为 :',req.query.q);//q的值:123
+});
+```
+
+
+
+```node.js
+router.get('/test/:urlname', function (req, res,next) {
+  console.log('url参数对象 :',req.params); //url参数对象:{urlname:'url123'}
+  console.log('get请求参数对象 :',req.query);//{}
+  console.log('q的值为 :',req.params.urlname);//q的值：url123
+});
+
+```
+

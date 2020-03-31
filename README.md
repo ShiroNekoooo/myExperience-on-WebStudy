@@ -2,7 +2,7 @@
 
 issue-0: 插件库
 
-issue-1:gitlab提交小问题（当需要在主分支下的自己的分支中提交脚手架）
+issue-1: gitlab提交小问题（当需要在主分支下的自己的分支中提交脚手架）
 
 issue-2:上传脚手架到问题（隐藏的配置文件也要上传）
 
@@ -16,5 +16,6 @@ issue-6: vue中返回数据格式{**ob**: Observer} ，不能枚举问题
 
 issue-7: vue-router中配置mode:history后,webpack打包无法拿到路径（can't get /)
 
+issue-8: new FormData() - FormData对象的作用及用法
 
-
+issue-9: node.js获取参数res.query与res.params的区别
